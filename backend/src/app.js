@@ -86,6 +86,6 @@ app.post("/enviar-email", (req, res) => {
 /* //route
 app.use("/api/email",emailRouter)
  */
-const httpServer = app.listen(8080, () => {
-    console.log("Escuchando al puerto 8080");
+const httpServer = app.listen(3000, () => {
+    console.log("Escuchando al puerto 3000");
   });
