@@ -1,16 +1,14 @@
 {
-  "name": "portfolio-2024",
+  "name": "frontend",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "npm run backend & npm run frontend",
-  "backend": "cd backend && npm start",
-  "frontend": "cd frontend && npm start"
+    "start": "live-server"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "concurrently": "^8.2.2"
+    "live-server": "^1.2.2"
   }
 }
